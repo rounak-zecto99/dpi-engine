@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DPI Engine in Java (beginner-friendly layout)
 
 This is a Java 17 conversion of the C++ packet-inspection project. It uses the requested layout and keeps the number of top-level source files small. Small helper types are nested inside the class that uses them instead of introducing extra files such as `FPManager.java`, `AppType.java`, or `Connection.java`.
