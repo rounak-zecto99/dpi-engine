@@ -1,0 +1,4 @@
+block-domain=facebook.com
+block-domain=youtube.com
+block-app=Google
+block-port=443
