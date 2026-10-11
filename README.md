@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DPI Engine in Java (beginner-friendly layout)
 
 This is a Java 17 conversion of the C++ packet-inspection project. It uses the requested layout and keeps the number of top-level source files small. Small helper types are nested inside the class that uses them instead of introducing extra files such as `FPManager.java`, `AppType.java`, or `Connection.java`.
@@ -142,3 +143,6 @@ For convenience, the loader also accepts one `block-type=value` rule per line, s
 ## Validation performed
 
 The project compiles with `javac --release 17`. The included 77-packet sample was processed successfully: without rules, 77 packets were written to a valid output PCAP; with `--block-app=Google`, the sample run dropped a matching packet and wrote a valid PCAP with 76 packets. These checks validate this included sample, not every possible PCAP variant.
+=======
+# dpi-engine
+>>>>>>> 5191f1ce16ae5c2c9e5f4d830b5fb4b8bc052914
